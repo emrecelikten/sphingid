@@ -5,4 +5,4 @@ Sphingid will be a high performance web spidering tool making extensive use of e
 
 Scala version: 2.10.3
 
-Dependencies: Akka, Spray, ScalaTest
+Dependencies: Akka 2.2.3, Spray 1.2-RC3, ScalaTest 2.0.
