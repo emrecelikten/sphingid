@@ -2,7 +2,7 @@ name := "Sphingid"
 
 scalaVersion := "2.10.3"
 
-scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
+scalacOptions := Seq("-unchecked", "-deprecation", "-feature", "-encoding", "utf8")
 
 version := "0.1-SNAPSHOT"
 

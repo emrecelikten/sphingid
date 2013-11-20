@@ -7,7 +7,7 @@ object Main extends App {
   println("Hello. Fetching emre.celikten.name...")
   val future = Fetcher.fetch("http://emre.celikten.name")
 
-  val result = Await.result(future, 10 seconds)
+  val result = Await.result(future, 10.seconds)
 
   println("Result: " + result.status)
   println("Content: " + result.entity.asString)
